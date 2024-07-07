@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .dark-2{
+    color: rgba(47, 47, 47);
+  }
+  nav ul li{
+    list-style: none;
+    margin-right: 48px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .nav-title{
+    font-weight: bolder;
+  }
+  .nav-title span{
+    color:chocolate;
+  }
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+.btn{
+  background-color: #FD6E0A;
+  font-weight: bold;
+  color: white;
+  padding: 12px 14px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+}
+.header{
+  background-image:url('../portfolio-resources/images/developer.png'),url('../portfolio-resources/images/header_bg.png') ;
+  background-repeat: no-repeat;
+  background-position: top left , bottom right;
+  height: 600px;
+}
+.barner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 40px 0 200px;
+}
+.barner-img{
+  height: 480px;
+}
+.barner-content{
+  height: 480px;
+  width: 600px;
+}
+.barner-grettins{
+  font-size: 40px;
+  font-weight: 580px;
+}
+.barner-title{
+  font-weight: bolder;
+  font-size: 70px;
+}
+.about-title{
+  color: #181818;
+}
+.about-discription{
+  color:#757575;
+}
+.second-bg{
+  background-color:#FFF8F3 ;
+}
+main{
+  max-width: 980px;
+  margin: 0 auto;
+}
+main section{
+  margin-top: 130px;
+
+}
+.about{
+  text-align: center;
+  margin-bottom: 80px;
+  padding: 120px 140px;
+}
+.text-center{
+  text-align: center;
+
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 20px;
+  box-shadow: 0px 6px 50px rgba(255, 255, 255, 0.84) ;}
+  .resume-container{
+    display: flex;
+    gap: 24px;
+  }
+  .resume-discription-sub{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom:20px ;
+  }
+  .resume-details, .resume-discription-sub{
+    color: #757575;
+  }
+  resume hr{
+    margin: 20px 5px;
+  }
+  .resume-download{
+    margin-top: 30px;
+  }
+
+  
